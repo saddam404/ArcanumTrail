@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blog - My Blogging Website</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.16/tailwind.min.css">
+</head>
+<body class="bg-gray-100 font-sans">
+  <header class="bg-white shadow">
+    <div class="container mx-auto py-4 px-6">
+      <h1 class="text-2xl font-bold text-gray-800">Blog</h1>
+      <nav class="mt-4">
+        <ul class="flex space-x-4">
+          <li><a href="index.html" class="text-gray-600 hover:text-gray-800">Home</a></li>
+          <li><a href="blog.html" class="text-gray-600 hover:text-gray-800">Blog</a></li>
+          <li><a href="about.html" class="text-gray-600 hover:text-gray-800">About</a></li>
+          <li><a href="contact.html" class="text-gray-600 hover:text-gray-800">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container mx-auto py-8 px-6">
+    <section>
+      <h2 class="text-xl font-bold text-gray-800 mb-4">Blog Categories</h2>
+      <div class="flex space-x-4 mb-6">
+        <a href="#category1" class="text-blue-500 hover:text-blue-600">Category 1</a>
+        <a href="#category2" class="text-blue-500 hover:text-blue-600">Category 2</a>
+        <a href="#category3" class="text-blue-500 hover:text-blue-600">Category 3</a>
+      </div>
+
+      <section id="category1" class="mb-8">
+        <h3 class="text-lg font-bold text-gray-800">Category 1</h3>
+        <p class="text-gray-600">Post about this category...</p>
+      </section>
+
+      <section id="category2" class="mb-8">
+        <h3 class="text-lg font-bold text-gray-800">Category 2</h3>
+        <p class="text-gray-600">Post about this category...</p>
+      </section>
+
+      <section id="category3" class="mb-8">
+        <h3 class="text-lg font-bold text-gray-800">Category 3</h3>
+        <p class="text-gray-600">Post about this category...</p>
+      </section>
+    </section>
+  </main>
+
+  <footer class="bg-gray-800 text-white py-6">
+    <div class="container mx-auto px-6 text-center">
+      <p>&copy; 2023 My Blogging Website. All rights reserved.</p>
+    </div>
+  </footer>
+</body>
+</html>
