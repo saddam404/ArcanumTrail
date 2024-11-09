@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About - My Blogging Website</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.16/tailwind.min.css">
+</head>
+<body class="bg-gray-100 font-sans">
+  <header class="bg-white shadow">
+    <div class="container mx-auto py-4 px-6">
+      <h1 class="text-2xl font-bold text-gray-800">About</h1>
+      <nav class="mt-4">
+        <ul class="flex space-x-4">
+          <li><a href="index.html" class="text-gray-600 hover:text-gray-800">Home</a></li>
+          <li><a href="blog.html" class="text-gray-600 hover:text-gray-800">Blog</a></li>
+          <li><a href="about.html" class="text-gray-600 hover:text-gray-800">About</a></li>
+          <li><a href="contact.html" class="text-gray-600 hover:text-gray-800">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container mx-auto py-8 px-6">
+    <section>
+      <h2 class="text-xl font-bold text-gray-800 mb-4">About Me</h2>
+      <p class="text-gray-600">
+        This is a space where I share my thoughts on various topics, explore the world through ideas, and connect with my readers. I'm passionate about [insert your passions here].
+      </p>
+    </section>
+  </main>
+
+  <footer class="bg-gray-800 text-white py-6">
+    <div class="container mx-auto px-6 text-center">
+      <p>&copy; 2023 My Blogging Website. All rights reserved.</p>
+    </div>
+  </footer>
+</body>
+</html>
